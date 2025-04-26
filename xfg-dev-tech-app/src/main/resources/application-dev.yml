@@ -1,0 +1,16 @@
+server:
+  port: 8091
+  servlet:
+    context-path: /xfg
+  tomcat:
+    max-connections: 20
+    threads:
+      max: 20
+      min-spare: 10
+    accept-count: 10
+
+# 日志
+logging:
+  level:
+    root: info
+  config: classpath:logback-spring.xml

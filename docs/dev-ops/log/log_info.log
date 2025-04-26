@@ -1,0 +1,16 @@
+25-04-26.13:55:26.243 [main            ] INFO  Application            - Starting Application v1.0 using Java 1.8.0_342 on 0e8b5409dcad with PID 7 (/xfg-dev-tech-remote-jvm-debug-app.jar started by root in /)
+25-04-26.13:55:26.250 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-04-26.13:55:29.182 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+25-04-26.13:55:29.204 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+25-04-26.13:55:29.206 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-04-26.13:55:29.209 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-04-26.13:55:29.322 [main            ] INFO  [/xfg]                 - Initializing Spring embedded WebApplicationContext
+25-04-26.13:55:29.322 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2962 ms
+25-04-26.13:55:30.563 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-04-26.13:55:30.609 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+25-04-26.13:55:30.648 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path '/xfg'
+25-04-26.13:55:30.672 [main            ] INFO  Application            - Started Application in 6.155 seconds (JVM running for 8.244)
+25-04-26.13:57:40.118 [http-nio-8091-exec-1] INFO  [/xfg]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-04-26.13:57:40.118 [http-nio-8091-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-04-26.13:57:40.121 [http-nio-8091-exec-1] INFO  DispatcherServlet      - Completed initialization in 3 ms
+25-04-26.13:57:44.973 [http-nio-8091-exec-1] INFO  TestApiController      - 请求参数 "1111"
